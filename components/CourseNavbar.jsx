@@ -25,11 +25,7 @@ const CourseNavbar = () => {
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         {/* Left: Placeholder / Logo */}
-        <div className="w-1/3 flex items-center">
-          <span className="text-xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600 tracking-wider">
-            ZGOD.AI
-          </span>
-        </div>
+        <div className="w-1/3 flex items-center">{/* Logo here */}</div>
 
         {/* Center Links */}
         <div className="hidden md:flex justify-center space-x-8 w-1/3">
